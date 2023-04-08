@@ -1,5 +1,14 @@
-.group-container{
-    display: flex;
-    flex-direction: column;
-    margin-left: -20px;
+.group-container {
+  display: flex;
+  flex-direction: column;
+  margin: -5px 0px 0px -30px;
+}
+@media (min-width: 1440px) {
+  .group-container {
+    width: 620px;
+    margin: 0px 230px 0px 230px;
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
 }

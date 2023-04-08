@@ -5,7 +5,8 @@
         "action": "reacted to your recent post",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "1m ago",
-        "user_image": "/static/images/avatar-mark-webber.webp"
+        "user_image": "/static/images/avatar-mark-webber.webp",
+        "is_valid": false
     },
     {
         "id": 2,
@@ -13,7 +14,8 @@
         "action": "followed you",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "5m ago",
-        "user_image": "/static/images/avatar-angela-gray.webp"
+        "user_image": "/static/images/avatar-angela-gray.webp",
+        "is_valid": false
     },
     {
         "id": 3,
@@ -21,7 +23,8 @@
         "action": "has joined your group Chess Club",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "1 day ago",
-        "user_image": "/static/images/avatar-jacob-thompson.webp"
+        "user_image": "/static/images/avatar-jacob-thompson.webp",
+        "is_valid": false
     },
     {
         "id": 4,
@@ -29,7 +32,8 @@
         "action": "sent you a private message",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "5 days ago",
-        "user_image": "/static/images/avatar-rizky-hasanuddin.webp"
+        "user_image": "/static/images/avatar-rizky-hasanuddin.webp",
+        "is_valid": true
     },
     {
         "id": 5,
@@ -37,7 +41,8 @@
         "action": "commented on your picture",
         "img_action":"/static/images/image-chess.webp",
         "time_action": "1 week ago",
-        "user_image": "/static/images/avatar-kimberly-smith.webp"
+        "user_image": "/static/images/avatar-kimberly-smith.webp",
+        "is_valid": true
     },
     {
         "id": 6,
@@ -45,7 +50,8 @@
         "action": "reacted to your recent post 5 end-game strategies to increase your win rate",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "2 weeks ago",
-        "user_image": "/static/images/avatar-nathan-peterson.webp"
+        "user_image": "/static/images/avatar-nathan-peterson.webp",
+        "is_valid": true
     },
     {
         "id": 7,
@@ -53,6 +59,7 @@
         "action": "left the group Chess Club",
         "img_action":"/static/images/efecto-transp.avif",
         "time_action": "2 weeks ago",
-        "user_image": "/static/images/avatar-anna-kim.webp"
+        "user_image": "/static/images/avatar-anna-kim.webp",
+        "is_valid": true
     }
 ]

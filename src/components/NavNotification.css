@@ -15,7 +15,7 @@
     background-color: hsl(219, 85%, 26%);
     padding: 2px 2px 2px 2px;
     font-size: 14px;
-    margin: 14px 14px 0px 9px;
+    margin: 14px 0px 0px 9px;
     height: 23px;
     width: 30px;
     border-radius: 5px;
@@ -23,6 +23,42 @@
   .nav-container span {
     font-family: "Plus Jakarta Sans", sans-serif;
     margin: 19px 0px 0px 62px;
+    font-size: 13px;
+    color: hsl(219, 12%, 42%);
+  }
+}
+@media (min-width: 1440px) {
+  .nav-container {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    width: 620px;
+    height: 75px;
+    margin: 20px 230px -10px 230px;
+    color: hsl(224, 21%, 14%);
+    background-color: white;
+  }
+  .nav-container h2 {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: 25px;
+  }
+  .nav-container button {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    border: 1.5px solid hsl(219, 85%, 26%);
+    background-color: hsl(219, 85%, 26%);
+    padding: 2px 2px 2px 2px;
+    font-size: 14px;
+    margin: 28px 0px 0px 9px;
+    height: 23px;
+    width: 30px;
+    border-radius: 5px;
+  }
+  .nav-container span {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 30px 25px 0px 297px;
     font-size: 13px;
     color: hsl(219, 12%, 42%);
   }

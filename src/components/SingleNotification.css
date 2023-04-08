@@ -1,36 +1,113 @@
-.notification-container{
-    width: 312px;
-    height: auto;
-    color: black;
-    display: flex;
-    margin: 11px 0px 0px 0px ;
-    padding: 10px 0px 10px 0px;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 12px;
-    background-color: hsl(210, 60%, 98%);
-    flex-direction: column;
-}
-.fleexx{
+@media (min-width: 375px) {
+  .notification-container {
+    border-radius: 10px;
+    width: 294px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
-}
-.notification-container img{
-    margin: 10px 14px 0px 15px;
+    align-items: center;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: white;
+  }
+  .notification-dot {
+    position: absolute;
+    display: inline-block;
+    transform: translateY(-50%);
+    left: calc(80%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #de5a5a;
+    margin-top: 30px;
+  }
+  .notification-container.invalid {
+    background-color: hsl(210, 60%, 98%);
+  }
+  .notification-container img {
+    margin-right: 10px;
     width: 35px;
     height: 35px;
-}
-.notification-container h2{
-    margin: -30px 0px 0px 55px;
-    font-size: 12px;
-}
-.notification-container span{
-    margin: -30px 0px 0px 4px;
-    color:hsl(219, 12%, 42%);
+  }
 
-}
-.notification-container h6{
-    margin: 10px 0px 5px 60px;
-    color:hsl(219, 14%, 63%);
-    font-weight: normal;
+  .notification-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notification-text h2 {
+    color: hsl(224, 21%, 14%);
+    margin: 0;
     font-size: 12px;
+  }
+
+  .notification-text span {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .notification-text h6 {
+    margin: 0;
+    font-size: 12px;
+    margin: 7px 0px 0px 0px;
+    color: hsl(219, 14%, 63%);
+    font-weight: normal;
+  }
+}
+@media (min-width: 1440px) {
+  .notification-container {
+    margin-left: 23px;
+    border-radius: 10px;
+    width: 552px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background-color: white;
+  }
+  .notification-dot {
+    position: absolute;
+    display: inline-block;
+    transform: translateY(-50%);
+    left: calc(58%);
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #de5a5a;
+    margin-top: 15px;
+  }
+  .notification-container.invalid {
+    background-color: hsl(210, 60%, 98%);
+  }
+  .notification-container img {
+    margin-right: 10px;
+    width: 35px;
+    height: 35px;
+  }
+
+  .notification-text {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .notification-text h2 {
+    color: hsl(224, 21%, 14%);
+    margin: 0;
+    font-size: 12px;
+  }
+
+  .notification-text span {
+    font-size: 12px;
+    color: #888;
+  }
+
+  .notification-text h6 {
+    margin: 0;
+    font-size: 12px;
+    margin: 7px 0px 0px 0px;
+    color: hsl(219, 14%, 63%);
+    font-weight: normal;
+  }
 }
