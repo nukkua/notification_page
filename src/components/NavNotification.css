@@ -1,5 +1,6 @@
 @media (min-width: 375px) {
   .nav-container {
+    width: 375px;
     display: flex;
     margin: -30px 0px 0px -28px;
     color: hsl(224, 21%, 14%);
@@ -22,7 +23,7 @@
   }
   .nav-container span {
     font-family: "Plus Jakarta Sans", sans-serif;
-    margin: 19px 0px 0px 62px;
+    margin: 19px 0px 0px 90px;
     font-size: 13px;
     color: hsl(219, 12%, 42%);
   }
@@ -34,7 +35,7 @@
     display: flex;
     width: 620px;
     height: 75px;
-    margin: 20px 230px -10px 230px;
+    margin: 20px 250px -10px 250px;
     color: hsl(224, 21%, 14%);
     background-color: white;
   }
