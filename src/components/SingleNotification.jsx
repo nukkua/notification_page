@@ -5,10 +5,10 @@ export const SingleNotification = (props) => {
   const notification = props.notification;
   return (
     <div
-      class={`notification-container ${notification.is_valid ? "" : "invalid"}`}
+      className={`notification-container ${notification.is_valid ? "" : "invalid"}`}
     >
       <img src={notification.user_image} alt="" />
-      <div class="notification-text">
+      <div className="notification-text">
         <h2>{notification.name}</h2>
         <span>{notification.action}</span>{" "}
         {!notification.is_valid && <span className="notification-dot"></span>}
